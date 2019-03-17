@@ -219,18 +219,13 @@
         </div><!-- /.Row -->
       </div>
 
-      <div id="footer-bottom">
-        <h6>Friday The 13th Fan Site © 2019 Vinicius Santos - All Rights Reserved</h6>
-      </div>
+      <?php include "footer.php" ?>
 
     </div>
     </div>
     </div>
   </footer>
 
-
-
-  <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>

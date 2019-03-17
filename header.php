@@ -16,13 +16,13 @@
             <div class="collapse navbar-collapse" id="nav-principal">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="">Releases</a>
+                        <a class="nav-link" href="index.php"><i class="fa fa-home" aria-hidden="true"></i></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="">The Movies</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">Gallery</a>
+                        <a class="nav-link" href="gallery.php">Gallery</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="">Features</a>
