@@ -1,0 +1,265 @@
+/* @author Vinicius */
+
+/*Estrutura
+------------*/
+html, body {
+	height: 100%;
+}
+
+body {
+	background: #000;
+	font-family: 'Playfair Display', serif;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.btn-danger {
+	color: #fff;
+    background-color: #ee2d24;
+    border-color: #ee2d24;
+}
+	.btn-danger:hover {
+		color: #fff;
+	    background-color: #c52c25;
+	    border-color: #c52c25;
+	}
+
+.breadcrumb a {
+	color: #c52c25;
+}
+
+/*Menu Principal
+------------------*/
+nav.nav-principal {
+	background: rgba(34, 34, 34, 0.6);
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+	border-right: 1px solid #fff;
+}
+	.navbar-light .navbar-nav .nav-link:hover {
+		background-color: #c52c25;
+		border-radius: 1px;
+		color: #fff;
+	}
+
+.navbar-light .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,.3);
+}
+
+.input-box input[type="text"] {
+	background: rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+	border: 1px solid #fff;
+	border-right: none;
+	box-sizing: border-box;
+	color: #fff;
+	font-size: 14px;
+	padding: 2px 15px;
+	outline: none;
+	height: 40px;
+}
+
+.btn-search {
+	background: rgba(0, 0, 0, 0.3);
+	border: 1px solid #fff;
+	border-left: none;
+}
+
+/* estrutura conteudos
+------------------------*/
+.conteudo {
+	background: #fff;
+	padding: 15px;
+}
+
+.section-title {
+	background-color: #c52c25;
+	box-shadow: 3px 3px #4b4949;
+	color: #fff;
+	display: inline-block;
+	padding: 5px;
+}
+
+.box-news ul {
+	padding: 8px;
+	margin-bottom: 0;
+}
+
+.box-news ul li {
+	border-top: 2px solid #e5e5e5;
+	border-bottom: 2px solid #e5e5e5;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+	.box-news ul li:hover {
+		border-top: 2px solid #c52c25;
+		border-bottom: 2px solid #c52c25;
+	}
+
+.box-news li h5 a {
+	font-size: 1em;
+	color: #333;
+	padding: 5px 0;
+}
+	.box-news li h5 a:hover {
+		color: #898989;
+		text-decoration: none;
+	}
+
+.box-news li img {
+	float: left;
+	margin-right: 15px;
+}
+
+.box-news li p {
+	font-size: 1em;
+}
+
+.news-data {
+	color: #BDBDBD;
+	letter-spacing: 1px;
+}
+
+.aside-titles {
+	border-bottom: 1px solid #898989
+}
+
+#popular-news li {
+	border-bottom: 1px solid #ccc;
+	height: 100%;
+	margin-bottom: 8px;
+	padding: 2px;
+}
+
+#popular-news li a {
+	color: #333;
+	text-decoration: none;
+}
+
+#popular-news li:hover{
+	border-bottom: 1px solid #c52c25;
+	border-right: 1px solid #c52c25;
+	cursor: pointer;
+}
+
+#popular-news li img {
+	float: left;
+	margin-right: 10px;
+}
+
+/* rodapé
+----------*/
+#footer {
+	background: #141414;
+	color: #cdcdcd;
+	height: 100%;
+	padding: 20px;
+}
+	#footer a {
+		text-decoration: none;
+	}
+
+#footer-bottom {
+	background-color: #fff;
+	color: #000;
+	height: 100%;
+	padding: 5px 10px;
+	text-align: center;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.navbar-light .navbar-nav .nav-link {
+		border-right: none;
+		border-bottom: 1px solid #fff;
+	}
+
+	#carousel {
+		margin-top: 7px;
+		margin-bottom: 7px;
+	}
+
+	.box-news li img {
+		margin-bottom: 10px;
+		width: 100%;
+	}
+
+	#footer-section1 {
+		margin-top: 15px;
+		text-align: center;
+	}
+
+	#footer-section2 {
+		margin-top: 15px;
+		text-align: center;
+	}
+
+	aside {
+		margin-top: 15px;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.navbar-light .navbar-nav .nav-link {
+		border-right: none;
+		border-bottom: 1px solid #fff;
+	}
+
+	#carousel {
+		margin-bottom: 7px;
+		margin-top: 7px;
+	}
+
+	.box-news li img {
+		margin-bottom: 10px;
+		width: 100%;
+	}
+
+	#footer-section1 {
+		margin-top: 15px;
+		text-align: center;
+	}
+
+	#footer-section2 {
+		margin-top: 15px;
+		text-align: center;
+	}
+
+	aside {
+		margin-top: 15px;
+	}
+}
+
+/*Dispositivos médios (tablets com 768px ou mais)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.input-box input[type="text"] {
+		width: 90px;
+	}
+
+	.box-news li img {
+		margin-bottom: 10px;
+		width: 100%;
+	}
+
+	#popular-news a img {
+		margin-bottom: 10px;
+		width: 100%;
+	}
+}
+
+/*Formulário*/
+#form {
+	background: #fff;
+}
+
+#form-aside {
+	background: #fff;
+}
