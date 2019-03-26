@@ -2,7 +2,6 @@
 
     <img src="imagens/site_banner.jpg" class="img-fluid" alt="">
 
-
     <nav class="navbar navbar-expand-md navbar-light nav-principal">
         <div class="container">
             <a href="index.php">
