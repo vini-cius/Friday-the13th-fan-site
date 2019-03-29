@@ -38,31 +38,31 @@
         <div class="conteudo">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Contact</li>
                 </ol>
             </nav>
-            
+
             <h1 class="display-4">Contact Us</h1>
 
             <div class="row">
                 <div class="col-md-8">
                     <section>
-                        
-
                         <div id="form">
-                            <div class="form-group">
-                                <label for="name">Name:</label>
-                                <input type="text" class="form-control mb-2" id="name" maxlength="30">
+                            <form action="submit_contact.php" method="post">
+                                <div class="form-group">
+                                    <label for="name">Name:</label>
+                                    <input type="text" class="form-control mb-2" id="name" maxlength="30">
 
-                                <label for="email">E-mail<span class="text-danger">*</span>:</label>
-                                <input type="email" class="form-control mb-2" id="email" maxlength="30">
+                                    <label for="email">E-mail<span class="text-danger">*</span>:</label>
+                                    <input type="email" class="form-control mb-2" id="email" maxlength="30">
 
-                                <label for="msg">Message<span class="text-danger">*</span>:</label>
-                                <textarea class="form-control mb-2" id="msg" rows="4"></textarea>
+                                    <label for="msg">Message<span class="text-danger">*</span>:</label>
+                                    <textarea class="form-control mb-2" id="msg" rows="4"></textarea>
 
-                                <button class="btn btn-danger" type="submit" onclick="validationForm()">Send</button>
-                            </div>
+                                    <button class="btn btn-danger" type="submit" onclick="validationForm()">Send <i class="far fa-paper-plane"></i></button>
+                                </div>
+                            </form>
                         </div>
                     </section>
                 </div>
@@ -71,9 +71,9 @@
                     <aside>
                         <h6 class="card-header aside-titles">Follow Us</h6>
                         <div class="card-body d-flex justify-content-around">
-                            <i style="color: #3B5998;" class="fab fa-facebook fa-3x"></i>
-                            <i style="color: #00ACED;" class="fab fa-twitter fa-3x"></i>
-                            <i style="color: #DB277B;" class="fab fa-instagram fa-3x"></i>
+                            <a href="https://fb.com" target="_blank"><i style="color: #3B5998;" class="fab fa-facebook fa-3x"></i></a>
+                            <a href="https://twitter.com" target="_blank"><i style="color: #00ACED;" class="fab fa-twitter fa-3x"></i></a>
+                            <a href="https://instagram.com" target="_blank"><i style="color: #DB277B;" class="fab fa-instagram fa-3x"></i></a>
                         </div>
                     </aside>
                 </div>

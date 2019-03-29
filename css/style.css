@@ -62,8 +62,17 @@ nav.nav-principal {
 	color: #fff;
 	font-size: 14px;
 	padding: 2px 15px;
-	outline: none;
 	height: 40px;
+}
+
+.input-box .form-control:focus {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.btn-search:focus {
+	-webkit-box-shadow: none;
+	box-shadow: none;
 }
 
 .btn-search {
@@ -174,6 +183,15 @@ nav.nav-principal {
 	text-align: center;
 }
 
+/*Formulário*/
+#form {
+	background: #fff;
+}
+
+#form-aside {
+	background: #fff;
+}
+
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
 	.navbar-light .navbar-nav .nav-link {
@@ -203,6 +221,10 @@ nav.nav-principal {
 
 	aside {
 		margin-top: 15px;
+	}
+
+	#gallery .card {
+		margin-bottom: 10px;
 	}
 }
 
@@ -236,6 +258,10 @@ nav.nav-principal {
 	aside {
 		margin-top: 15px;
 	}
+
+	#gallery .card {
+		margin-bottom: 10px;
+	}
 }
 
 /*Dispositivos médios (tablets com 768px ou mais)*/
@@ -253,13 +279,8 @@ nav.nav-principal {
 		margin-bottom: 10px;
 		width: 100%;
 	}
-}
 
-/*Formulário*/
-#form {
-	background: #fff;
-}
-
-#form-aside {
-	background: #fff;
+	#gallery .card {
+		margin-bottom: 10px;
+	}
 }
