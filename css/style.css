@@ -222,10 +222,6 @@ nav.nav-principal {
 	aside {
 		margin-top: 15px;
 	}
-
-	#gallery .card {
-		margin-bottom: 10px;
-	}
 }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -258,10 +254,6 @@ nav.nav-principal {
 	aside {
 		margin-top: 15px;
 	}
-
-	#gallery .card {
-		margin-bottom: 10px;
-	}
 }
 
 /*Dispositivos médios (tablets com 768px ou mais)*/
@@ -278,9 +270,5 @@ nav.nav-principal {
 	#popular-news a img {
 		margin-bottom: 10px;
 		width: 100%;
-	}
-
-	#gallery .card {
-		margin-bottom: 10px;
 	}
 }

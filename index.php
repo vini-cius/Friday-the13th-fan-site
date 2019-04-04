@@ -1,8 +1,10 @@
 <!doctype html>
-<html lang="en">
+<html>
 
 <head>
-  <!-- Required meta tags -->
+  <link rel="icon" href="imagens/favicon_jason.png">
+  <title>Friday The 13th: Fan Site</title>
+  
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -26,8 +28,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
 
-  <link rel="icon" href="imagens/favicon_jason.png">
-  <title>Friday The 13th: Fan Site</title>
+  
 </head>
 
 <body>

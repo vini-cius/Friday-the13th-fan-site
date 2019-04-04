@@ -1,7 +1,8 @@
 <!doctype html>
-<html lang="en">
+<html>
 
 <head>
+    <link rel="icon" href="imagens/favicon_jason.png">
     <title>Gallery</title>
 
     <!-- Required meta tags -->
@@ -16,15 +17,15 @@
 
     <!--Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/gallery-style.css">
 
-    <!--Font Awesome -->
+    <!--Font's -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
 
     <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
 
 </head>
 
@@ -44,7 +45,7 @@
 
             <div class="row text-center" id="gallery">
                 <div class="col-lg-3 col-md-4 col-6">
-                    <div class="card border-0 shadow" data-toggle="modal" data-target="#ExemploModalCentralizado">
+                    <div class="card border-0 shadow" data-toggle="modal" data-target="#psg1980">
                         <a href="#" class="d-block h-100">
                             <img class="img-fluid" src="imagens\gallery\friday-the-13th-movie-poster.jpg" alt="">
                         </a>
@@ -94,11 +95,11 @@
     <!--/.container -->
 
     <!-- Modal -->
-    <div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+    <div class="modal fade" id="psg1980" tabindex="-1" role="dialog" aria-labelledby="psg1980Titulo" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="TituloModalCentralizado">Friday The 13th 1980 Production Still Gallery</h5>
+                    <h5 class="modal-title" id="psg1980Titulo">Friday The 13th 1980 Production Still Gallery</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -112,13 +113,13 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img class="d-block w-100" src="https://picsum.photos/800/400?random" alt="Primeiro Slide">
+                                <img class="" src="imagens/gallery/psg1980/img01.png" alt="Primeiro Slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="https://picsum.photos/800/400/?random" alt="Segundo Slide">
+                                <img class="" src="imagens/gallery/psg1980/img02.png" alt="Segundo Slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="https://picsum.photos/800/400/?random" alt="Terceiro Slide">
+                                <img class="d-block" src="https://picsum.photos/800/400/?random" alt="Terceiro Slide">
                             </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -140,4 +141,4 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
-</html> 
+</html>

@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <!-- Required meta tags -->
+    <link rel="icon" href="imagens/favicon_jason.png">
+    <title>Contact</title>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -24,14 +26,10 @@
     	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
 	<![endif]-->
 
-    <script src="js/script.js"></script>
-
-    <link rel="icon" href="">
-    <title>Contact</title>
+    <script src="js/script.js"></script>    
 </head>
 
 <body>
-
     <?php include "header.php" ?>
 
     <div class="container">
