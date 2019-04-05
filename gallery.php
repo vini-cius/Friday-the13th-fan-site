@@ -96,12 +96,12 @@
 
     <!-- Modal -->
     <div class="modal fade" id="psg1980" tabindex="-1" role="dialog" aria-labelledby="psg1980Titulo" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="psg1980Titulo">Friday The 13th 1980 Production Still Gallery</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                        <span aria-hidden="true">&times;</span>
+                        <span class="text-white" aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="">
@@ -119,7 +119,7 @@
                                 <img class="" src="imagens/gallery/psg1980/img02.png" alt="Segundo Slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block" src="https://picsum.photos/800/400/?random" alt="Terceiro Slide">
+                                <img class="d-block" src="https://picsum.photos/1024/768/?random" alt="Terceiro Slide">
                             </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

@@ -1,3 +1,20 @@
+<? 
+include "submit_contact.php";
+
+if(strlen($_POST['name']))
+{
+    if(sendMail($_POST['email'],'seuemail@gmail.com', $_POST['msg'], 'Formul�rio de contato'))
+    {
+        echo "Sua mensagem foi enviada com sucesso!";
+    }
+    else
+    {
+        echo "Ocorreu um erro ao enviar";
+    }
+    echo "<br><a href='index.php'>Voltar</a>";
+    exit();
+}
+?>
 <!DOCTYPE html>
 <html>
 
@@ -47,18 +64,18 @@
                 <div class="col-md-8">
                     <section>
                         <div id="form">
-                            <form action="submit_contact.php" method="post">
+                            <form action="submit_contact.php" method="post" onsubmit="validaForm(); return false;">
                                 <div class="form-group">
                                     <label for="name">Name:</label>
-                                    <input type="text" class="form-control mb-2" id="name" maxlength="30">
+                                    <input type="text" class="form-control mb-2" name="name" id="name" maxlength="30">
 
                                     <label for="email">E-mail<span class="text-danger">*</span>:</label>
-                                    <input type="email" class="form-control mb-2" id="email" maxlength="30">
+                                    <input type="email" class="form-control mb-2" name="email" id="email" maxlength="30">
 
                                     <label for="msg">Message<span class="text-danger">*</span>:</label>
-                                    <textarea class="form-control mb-2" id="msg" rows="4"></textarea>
+                                    <textarea class="form-control mb-2" name="msg" id="msg" rows="4"></textarea>
 
-                                    <button class="btn btn-danger" type="submit" onclick="validationForm()">Send <i class="far fa-paper-plane"></i></button>
+                                    <button class="btn btn-danger submit" type="submit">Send <i class="far fa-paper-plane"></i></button>
                                 </div>
                             </form>
                         </div>
